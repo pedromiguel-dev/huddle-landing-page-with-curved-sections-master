@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+  &__container{
+    width: 100%;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo{
+    width: 120px;
+  }
+  &__button{
+    background-color: white;
+    border: var(--pink) 1px solid;
+    border-radius: 15px;
+    padding: 5px 20px ;
+  }
+  &__button__text{
+    color: var(--pink);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+  }
+}
