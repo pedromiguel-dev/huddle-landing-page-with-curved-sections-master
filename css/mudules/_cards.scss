@@ -1,0 +1,62 @@
+.cartoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__svg{
+    pointer-events: none;
+    width: 100%;
+    height: 27vw;
+    background-image: url(../images/bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &--firstbot{
+      background-image: url(../images/bg-section-bottom-mobile-1.svg);
+    }
+    &--secondbot{
+      background-image: url(../images/bg-section-bottom-mobile-2.svg);
+    }
+    &--thirdtop{
+      background-image: url(../images/bg-section-top-mobile-2.svg);
+    }
+    &--fourthtop{
+      background-image: url(../images/bg-section-bottom-mobile-2.svg);
+    }
+
+  }
+  &__card{
+    background-color: var(--Very-pale-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 100px 30px;
+    text-align: center;
+
+    &--white{
+      background-color: white;
+    }
+    
+  }
+  &__wrapper{
+    order: 2;
+    color: var(--Very-dark-cyan);
+  }
+  &__title{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+  }
+  &__explan{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 400px;
+  }
+  &__img{
+    order: 1;
+    max-width: 278px;
+    margin-bottom: 80px;
+  }
+}
