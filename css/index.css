@@ -246,6 +246,10 @@
   background-color: white;
 }
 
+.cartoes__card--fourth {
+  height: 600px;
+}
+
 .cartoes__wrapper {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
@@ -255,7 +259,13 @@
 
 .cartoes__title {
   font-size: 25px;
+  margin-bottom: 10px;
   font-family: 'Poppins', sans-serif;
+}
+
+.cartoes__title--fourth {
+  color: var(--Very-dark-cyan);
+  margin-bottom: 20px;
 }
 
 .cartoes__explan {
@@ -271,5 +281,23 @@
           order: 1;
   max-width: 278px;
   margin-bottom: 80px;
+}
+
+.cartoes__button {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  width: 200px;
+  background-color: var(--pink);
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.cartoes__button__text {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */
