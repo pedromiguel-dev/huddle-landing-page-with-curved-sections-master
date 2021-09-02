@@ -7,6 +7,10 @@
           box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+}
+
 .navbar {
   position: relative;
   width: 100%;
@@ -224,6 +228,10 @@
   background-image: url(../images/bg-section-bottom-mobile-2.svg);
 }
 
+.cartoes__svg--footer {
+  background-image: url(../images/bg-footer-top-mobile.svg);
+}
+
 .cartoes__card {
   background-color: var(--Very-pale-blue);
   display: -webkit-box;
@@ -247,7 +255,7 @@
 }
 
 .cartoes__card--fourth {
-  height: 600px;
+  height: 400px;
 }
 
 .cartoes__wrapper {
@@ -299,5 +307,77 @@
 .cartoes__button__text {
   text-decoration: none;
   color: white;
+}
+
+.footer {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__container {
+  background-color: var(--Very-dark-cyan);
+  width: 100%;
+  height: 100%;
+}
+
+.footer__title {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  min-width: 200px;
+  max-width: 350px;
+}
+
+.footer__para {
+  font-size: 15px;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  min-width: 200px;
+  max-width: 350px;
+  line-height: 25px;
+}
+
+.footer__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__email {
+  width: 100%;
+}
+
+.footer__icons {
+  list-style: none;
+}
+
+.footer__icons li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer--modifier {
+  padding: 0 30px 30px 30px;
+}
+
+.svg {
+  display: inline-block;
+}
+
+html, body {
+  width: 100vw;
+  height: 100%;
 }
 /*# sourceMappingURL=index.css.map */
