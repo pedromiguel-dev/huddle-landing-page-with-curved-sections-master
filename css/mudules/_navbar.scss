@@ -25,15 +25,21 @@ body{
   }
   &__button{
     background-color: white;
-    border: var(--pink) 1px solid;
-    border-radius: 15px;
+    border: var(--light-pink) 2px solid;
+    border-radius: 20px;
     padding: 5px 16px ;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover{
+      transition: 0.2s ease-in-out;
+      opacity: 0.6;
+    }
   }
   &__button__text{
-    color: var(--pink);
+    color: var(--light-pink);
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-
+    font-weight: 600;
   }
 }

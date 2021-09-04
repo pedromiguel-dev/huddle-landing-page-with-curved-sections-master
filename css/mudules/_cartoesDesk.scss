@@ -1,0 +1,88 @@
+@media (min-width: 825px){
+  .cartoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    &__svg{
+      pointer-events: none;
+      width: 100%;
+      height: 10vw;
+      background-image: url(../images/bg-section-top-desktop-1.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      &--firstbot{
+        background-image: url(../images/bg-section-bottom-desktop-1.svg);
+      }
+      &--secondbot{
+        background-image: url(../images/bg-section-bottom-desktop-2.svg);
+      }
+      &--thirdtop{
+        background-image: url(../images/bg-section-top-desktop-2.svg);
+      }
+      &--fourthtop{
+        background-image: url(../images/bg-section-bottom-desktop-2.svg);
+      }
+      &--footer{
+        background-image: url(../images/bg-footer-top-desktop.svg);
+      }
+  
+    }
+    &__wrapper{
+      order: 1;
+      color: var(--Very-dark-cyan);
+      &--doMeio{
+        order: 2;
+      }
+    }
+    &__img{
+      order: 2;
+      max-width: 350px;
+      margin-bottom: 80px;
+      &--doMeio{
+        order: 1;
+      }
+    }
+
+  }
+  .footer{
+    &--modifier{
+      padding: 0; 
+      max-width: none;
+      margin-bottom: 50px;
+    }
+    &__news{
+      order: 2;
+      width: 40%;
+    }
+    &__contact{
+      order: 1;
+    }
+    &__form{
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+    }
+    &__email{ 
+      width: 80%;
+      margin-bottom: 0 !important;
+      padding: 15px 10px;
+      margin-right: 10px;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+    }
+    &__button{
+      border-radius: none;
+      border-radius: 5px;
+      width: 35% !important;
+    }
+    &__button__text{
+      font-size: large;
+    }
+  }
+
+
+}
