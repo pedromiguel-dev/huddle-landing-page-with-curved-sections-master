@@ -15,19 +15,19 @@ body{
   margin-bottom: 10%;
   &__container{
     width: 100%;
-    padding: 40px 30px;
+    padding: 2.5rem 1.875rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   &__logo{
-    width: 120px;
+    width: 7.5rem;
   }
   &__button{
     background-color: white;
-    border: var(--light-pink) 2px solid;
-    border-radius: 20px;
-    padding: 5px 16px ;
+    border: var(--light-pink) 0.125rem solid;
+    border-radius: 1.25rem;
+    padding: 0.3125rem 1rem ;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 
