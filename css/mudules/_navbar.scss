@@ -28,6 +28,10 @@ body{
     border: var(--light-pink) 0.125rem solid;
     border-radius: 1.25rem;
     padding: 0.3125rem 1rem ;
+    color: var(--light-pink);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 
@@ -35,11 +39,5 @@ body{
       transition: 0.2s ease-in-out;
       opacity: 0.6;
     }
-  }
-  &__button__text{
-    color: var(--light-pink);
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
   }
 }

@@ -7,14 +7,12 @@
   font-weight: 700;
   cursor: pointer;
   transition: 0.2s ease-in-out;
-  
+  text-decoration: none;
+  color: white;
+
   &:hover{
     transition: 0.2s ease-in-out;
     background-color: var(--light-pink);
   }
   
-}
-.button__text{
-  text-decoration: none;
-  color: white;
 }
